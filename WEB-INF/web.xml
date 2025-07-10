@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+
+ <servlet>
+        <servlet-name>dbpage</servlet-name>
+        <servlet-class>Admin.Productdb</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>dbpage</servlet-name>
+        <url-pattern>/Productdb</url-pattern>
+    </servlet-mapping>
+
+   
+    <servlet>
+        <servlet-name>productpage</servlet-name>
+        <servlet-class>Admin.product</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>productpage</servlet-name>
+        <url-pattern>/product</url-pattern>
+    </servlet-mapping>
+
+    
+
+     <servlet>
+        <servlet-name>logpage</servlet-name>
+        <servlet-class>Admin.Login</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>logpage</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>registerpage</servlet-name>
+        <servlet-class>Admin.Register</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>registerpage</servlet-name>
+        <url-pattern>/register</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>pinfo</servlet-name>
+        <servlet-class>Admin.Productinfo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>pinfo</servlet-name>
+        <url-pattern>/Productinfo</url-pattern>
+    </servlet-mapping>
+
+  <servlet>
+        <servlet-name>pdelete</servlet-name>
+        <servlet-class>Admin.productdelete</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>pdelete</servlet-name>
+        <url-pattern>/productdelete</url-pattern>
+    </servlet-mapping>
+
+</web-app>
